@@ -74,6 +74,17 @@ DB_PORT = 3306
 [runtime.txt](https://github.com/NishantGhanate/webdev/blob/main/runtime.txt)
 [procfile](https://github.com/NishantGhanate/webdev/blob/main/Procfile)
 
-heroku config:set DISABLE_COLLECTSTATIC=1
+# No static issue 
+```sh
+
+> heroku login 
+
+> heroku apps
+ - <your_heroku_apps>
+ - webdevdjango 
+
+> heroku config:set DISABLE_COLLECTSTATIC=1 --app webdevdjango
+```
+
 
 
