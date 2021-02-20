@@ -1,10 +1,9 @@
-## WEDDEV
+## WEDDEV is an collection of Django apps for learning purposes 
 
 ```sh
-
 Django apps : 
 
-- ftl
+1) ftl - simle api endpoint to fetch user
 
 ```
 
@@ -64,10 +63,17 @@ DB_PORT = 3306
  > Deploy Brach 
 ```
 
+### Hosted  :-
+
+| Platform       | URL                  |
+| ------------- | ------------------------------ |
+|    Heroku     | https://webdevdjango.herokuapp.com/ |
+
 # Debug Heroku
 > Check project has ( runtime.txt , procfile ) and correct content
 [runtime.txt](https://github.com/NishantGhanate/webdev/blob/main/runtime.txt)
 [procfile](https://github.com/NishantGhanate/webdev/blob/main/Procfile)
 
+heroku config:set DISABLE_COLLECTSTATIC=1
 
 

@@ -173,10 +173,17 @@ REST_FRAMEWORK = {
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 
-# LOGGING os.getenvURATION
+# STATICFILES_DIRS = (
+#     os.path.join(BASE_DIR, 'static'),
+# )
 
+# MEDIA_URL = '/images/'
+# MEDIA_ROOT  = os.path.join(BASE_DIR, 'static/images')
+
+# App logging
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
