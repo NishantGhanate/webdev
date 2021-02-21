@@ -34,7 +34,7 @@ SECRET_KEY = os.getenv(key = 'SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv(key = 'DEBUG')
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = os.getenv(key = 'ALLOWED_HOSTS').split(',')
 
 LANGUAGE_CODE = 'en-us'
 TIME_ZONE = os.getenv(key = 'TIME_ZONE', default = 'Asia/Kolkata')
