@@ -18,6 +18,13 @@ from django.urls import re_path , include
 
 urlpatterns = [
     re_path(
+        r'',
+        include(
+            ('overview.urls','overview'), 
+            namespace = 'overview'
+        )
+    ),
+    re_path(
         r'v1/ftl/',
         include(
             ('ftl.urls','ftl'), 
