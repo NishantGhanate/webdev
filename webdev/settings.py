@@ -206,13 +206,25 @@ LOGGING = {
             'class': 'logging.FileHandler',
             'formatter': 'file',
             'filename': 'ftl.log',
-        }
+        },
+        'auth.file': {
+            'level': 'INFO',
+            'class': 'logging.FileHandler',
+            'formatter': 'file',
+            'filename': 'ftl.log',
+        },
+
     },
     'loggers': {
         'ftl': {
             'handlers': ['console', 'ftl.file'],
             'level': 'INFO',
             'propagate': True,
-        }
+        },
+        'auth': {
+            'handlers': ['console', 'ftl.file'],
+            'level': 'INFO',
+            'propagate': True,
+        },
     },
 }

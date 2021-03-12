@@ -5,6 +5,7 @@ Django apps :
 
 1) ftl - simle api endpoint to fetch user
 
+2) auth - override basic auth of django rest
 ```
 
 ### Getting started open a terminal follow the instructions below

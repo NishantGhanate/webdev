@@ -9,3 +9,8 @@ VALIDATION_FAILED = 'Validation failed'
 # validation messages
 INVALID_USER_ID = 'Invalid user id'
 SPECIAL_CHARS_NOT_ALLOWED = 'Special characters are not allowed'
+
+
+# Auth 
+AUTH_FAILED = 'Sorry Hackerman123 cannot let you in'
+DECODE_ERROR = 'Could not decode your secrets damn it'
