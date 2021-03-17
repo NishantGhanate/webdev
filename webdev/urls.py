@@ -31,4 +31,11 @@ urlpatterns = [
             namespace = 'ftl:v1'
         )
     ),
+    re_path(
+        r'v1/silly-auth/',
+        include(
+            ('silly_auth.urls','silly_auth'), 
+            namespace = 'silly_auth:v1'
+        )
+    ),
 ]

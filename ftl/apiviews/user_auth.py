@@ -8,7 +8,7 @@ from ftl.helpers.function_helpers.user_detail_helper import (
     fetch_user_v1
 )
 
-from auth.apiviews.meme_auth import MemeAuthentication
+from silly_auth.apiviews.meme_auth import MemeAuthentication
 from webdev.utils import custom_exceptions as ce
 from webdev.utils.custom_validators import CustomValidator
 from webdev.common import messages as glob_messages
